@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lab 4 - CSS Methods</title>
+
+    <!-- Internal CSS -->
+    <style>
+        .internal-heading {
+            color: darkred;
+            text-align: center;
+            font-family: Arial;
+        }
+
+        .internal-paragraph {
+            color: black;
+            font-size: 18px;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+
+    <!-- External CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Inline CSS Section -->
+
+    <h1 style="color: blue; text-align: center;">
+        Welcome to Lab 4
+    </h1>
+
+    <p style="color: green; font-size:18px;">
+        This paragraph uses inline CSS.
+        Inline CSS is written directly inside the HTML tag.
+        It is useful for applying quick styles to a single element.
+    </p>
+
+    <hr>
+
+    <!-- Internal CSS Section -->
+
+    <h2 class="internal-heading">
+        Internal CSS Example
+    </h2>
+
+    <p class="internal-paragraph">
+        This paragraph uses internal CSS.
+        Internal CSS is written inside the style tag in the head section.
+        It helps apply styles to multiple elements in one webpage.
+    </p>
+
+    <hr>
+
+    <!-- External CSS Section -->
+
+    <h3 class="external-heading">
+        External CSS Example
+    </h3>
+
+    <p class="external-paragraph">
+        This paragraph uses external CSS.
+        External CSS is stored in a separate file called style.css.
+        It is the best method for styling large websites because one CSS file can style many pages.
+    </p>
+
+</body>
+
+</html>
+body{
+    background-color: lightyellow;
+    font-family: Verdana;
+    margin: 20px;
+}
+
+/* External CSS Heading */
+
+.external-heading{
+    color: purple;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/* External CSS Paragraph */
+
+.external-paragraph{
+    color: darkblue;
+    font-size: 17px;
+    line-height: 1.7;
+    background-color: white;
+    padding: 12px;
+    border: 2px solid purple;
+    border-radius: 8px;
+}
