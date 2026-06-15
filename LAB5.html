@@ -1,0 +1,88 @@
+/* Element Selector */
+h1 {
+    color: #7a1f1f;
+}
+
+p {
+    color: #2e4053;
+}
+
+/* ID Selector */
+#main-title {
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+/* Class Selector */
+.highlight {
+    background-color: #fff3cd;
+    border-left: 5px solid orange;
+    padding: 8px;
+}
+
+/* Grouping Selector */
+h2, p, li {
+    border: 1px solid #bdbdbd;
+    padding: 6px;
+    margin: 4px;
+}
+
+/* Descendant Selector */
+div p {
+    background-color: #e8f8f5;
+    font-style: italic;
+}
+
+/* Child Selector */
+div > ul > li {
+    color: #6c3483;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+    background-color: #eafaf1;
+    border: 2px solid green;
+}
+
+input[type="password"] {
+    background-color: #fdedec;
+    border: 2px solid red;
+}
+
+/* Pseudo-class */
+a:hover {
+    background-color: navy;
+    color: white;
+    padding: 3px;
+}
+
+li:first-child {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+li:last-child {
+    color: darkred;
+}
+
+/* Pseudo-element */
+h2::before {
+    content: "📚 ";
+}
+
+h2::after {
+    content: " 📚";
+}
+
+p::first-letter {
+    font-size: 26px;
+    color: purple;
+    font-weight: bold;
+}
+
+/* Image Styling */
+img {
+    width: 230px;
+    border: 4px double black;
+    border-radius: 10px;
+}
